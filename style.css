@@ -1,9 +1,14 @@
 body {
   background-color: #E6E6FA;
   color: gray;
-  font-size: 20px;
+  font-size: 95%;
   text-align: justify;
   margin: 15px 100px 75px 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+  width: 90%
 }
 
 h1, h2, h3 {
@@ -19,24 +24,19 @@ h1 {
 h2 {
   color: #2F4F4F;
   font-size: 28px;
-  }
+}
 
 h3 {
   color: #BC8F8F;
   font-size: 20px;
   }
 
-p, a {
-  color: #808080;
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-}
-
 p {
     margin-left: 40px;
 }
 
 a{
+  color: #808080;
   margin-left: 30px;
 }
 
@@ -48,8 +48,16 @@ img {
   height: auto;
 }
 
-.blue {
-  color: CadetBlue;
+.shecodesart {
+  width: 30%;
+}
+
+strong{
+  color: red;
+}
+
+.first {
+
 }
 
 #contrast {
@@ -64,8 +72,4 @@ a:link, a:visited {
 a:hover, a:active {
   color: #708090;
   font-weight: bold;
-}
-
-.shecodesart {
-  width: fit-content;
 }
