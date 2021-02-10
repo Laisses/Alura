@@ -56,13 +56,13 @@ strong{
   color: red;
 }
 
-.first {
-
-}
-
 #contrast {
   color: MidnightBlue;
   font-weight: bold;
+}
+
+.contrast {
+  color: Green;
 }
 
 a:link, a:visited {
@@ -72,4 +72,8 @@ a:link, a:visited {
 a:hover, a:active {
   color: #708090;
   font-weight: bold;
+}
+
+.items {
+  font-style: italic;
 }
