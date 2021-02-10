@@ -8,6 +8,10 @@ body {
 }
 
 .banner {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
   width: 90%
 }
 
@@ -35,21 +39,17 @@ p {
     margin-left: 40px;
 }
 
-a{
+a {
   color: #808080;
   margin-left: 30px;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  height: auto;
-}
-
 .shecodesart {
-  width: 30%;
+  text-align: center;
+  }
+
+.me {
+  width: 30%
 }
 
 strong{
@@ -76,4 +76,29 @@ a:hover, a:active {
 
 .items {
   font-style: italic;
+}
+
+.house {
+  width: 30%
+}
+
+.contact {
+  padding: 20px
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer {
+
+  margin:auto;
+  bottom: 0;
+  text-align: left;
+}
+
+.imagecenter {
+  align-items: center;
+  background-color: black;
 }
