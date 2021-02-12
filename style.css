@@ -5,7 +5,7 @@ body {
   text-align: justify;
   margin: 15px 100px 75px 40px;
   font-family: 'Open Sans', sans-serif;
-}
+  }
 
 .banner {
   display:block;
@@ -28,7 +28,7 @@ h1 {
 h2 {
   color: #2F4F4F;
   font-size: 28px;
-}
+  }
 
 h3 {
   color: #BC8F8F;
@@ -37,6 +37,10 @@ h3 {
 
 p {
     margin-left: 40px;
+}
+
+.indent {
+  margin-left: 10px;
 }
 
 a {
@@ -74,31 +78,29 @@ a:hover, a:active {
   font-weight: bold;
 }
 
-.items {
-  font-style: italic;
-}
-
 .house {
   width: 30%
 }
 
-.contact {
-  padding: 20px
-}
+.adress {
+  margin-left: 20%;
+  font-size: 20px;
+  }
 
-ul {
+.adress_items {
+  font-style: italic;
   display: inline-block;
   vertical-align: top;
+  width: 40%;
+  margin-left: 15%;
+}
+
+nav li{
+  display: inline;
 }
 
 footer {
-
   margin:auto;
   bottom: 0;
   text-align: left;
-}
-
-.imagecenter {
-  align-items: center;
-  background-color: black;
 }
