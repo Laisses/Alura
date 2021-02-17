@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  overflow: auto;
+}
+
 body {
   background-color: #E6E6FA;
   color: gray;
@@ -5,7 +10,15 @@ body {
   text-align: justify;
   margin: 15px 100px 75px 40px;
   font-family: 'Open Sans', sans-serif;
-  }
+}
+
+nav{
+  position: absolute;
+  top:0;
+  padding: 20px;
+  margin: 10px;
+  height: 36px;
+}
 
 .banner {
   display:block;
@@ -18,16 +31,20 @@ body {
 h1, h2, h3 {
   text-align: center;
   font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+
 }
 
 h1 {
   color: #483D8B;
-  font-size: 36px;
+  font-size: 46px;
+  margin: 60px 0px 20px 0px;
 }
 
 h2 {
   color: #2F4F4F;
   font-size: 28px;
+  margin: 20px;
   }
 
 h3 {
@@ -60,15 +77,6 @@ strong{
   color: red;
 }
 
-#contrast {
-  color: MidnightBlue;
-  font-weight: bold;
-}
-
-.contrast {
-  color: Green;
-}
-
 a:link, a:visited {
   text-decoration: none;
 }
@@ -95,8 +103,11 @@ a:hover, a:active {
   margin-left: 15%;
 }
 
+
+
 nav li{
   display: inline;
+  margin-left: 10px;
 }
 
 footer {
