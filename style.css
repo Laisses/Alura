@@ -1,9 +1,6 @@
-/*
 * {
   box-sizing: border-box;
-  overflow: auto;
 }
-*/
 
 body {
   background-color: #E6E6FA;
@@ -15,22 +12,12 @@ body {
   line-height: normal;
 }
 
-/*
-nav{
-  position: absolute;
-  top:0;
-  padding: 20px;
-  margin: 10px;
-  height: 36px;
-}
-*/
-
 .banner {
   display:block;
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 90%
+  width: 90%;
 }
 
 h1, h2, h3 {
@@ -42,13 +29,13 @@ h1, h2, h3 {
 h1 {
   color: #483D8B;
   font-size: 46px;
-  /* margin: 60px 0px 20px 0px; */
+  margin: 60px 0px 20px 0px;
 }
 
 h2 {
   color: #2F4F4F;
   font-size: 28px;
-/*  margin: 20px; */
+  margin: 20px;
 }
 
 h3 {
@@ -56,11 +43,9 @@ h3 {
   font-size: 20px;
 }
 
-/*
 p {
   margin-left: 40px;
 }
-*/
 
 .indent {
   margin-left: 10px;
@@ -79,7 +64,6 @@ a {
 .me {
   width: 30%
 }
-
 
 a:link, a:visited {
   text-decoration: none;
