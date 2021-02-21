@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-  color: #BC8F8F;
+  color: black; /* FIXME: pick a darkgray color */
   font-size: 20px;
 }
 
