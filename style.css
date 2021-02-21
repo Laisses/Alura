@@ -4,9 +4,9 @@
 
 body {
   background-color: #E6E6FA;
-  color: gray;
+  color: black; /* FIXME: pick a darkgray color */
   font-size: 95%;
-  text-align: justify;
+/*  text-align: justify; */
   margin: 15px 100px 75px 40px;
   font-family: 'Open Sans', sans-serif;
   line-height: normal;
@@ -52,7 +52,7 @@ p {
 }
 
 a {
-  color: #808080;
+  color: black; /* FIXME: pick a darkgray color */
 }
 
 /*
