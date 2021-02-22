@@ -17,7 +17,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 90%;
+  width: 80%;
 }
 
 h1, h2, h3 {
@@ -29,13 +29,21 @@ h1, h2, h3 {
 h1 {
   color: #483D8B;
   font-size: 46px;
-  margin: 60px 0px 20px 0px;
+  margin: 40px 0px 20px 0px;
 }
 
 h2 {
   color: #2F4F4F;
   font-size: 28px;
   margin: 20px;
+}
+
+.h2-aboutme {
+  font-size: 24px;
+}
+
+.h3-aboutme {
+  color: black; /* FIXME: pick a darkgray color */
 }
 
 h3 {
@@ -70,7 +78,7 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color: #708090;
+  color: black;
   font-weight: bold;
 }
 
@@ -94,6 +102,24 @@ a:hover, a:active {
 nav li{
   display: inline;
   margin-left: 10px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.credit-title {
+  text-align: left;
+}
+
+.music {
+  background-color: #2B2D42;
+  width: 30%;
+}
+
+.psychology {
+  width: 30%;
 }
 
 /*
