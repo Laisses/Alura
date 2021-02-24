@@ -1,0 +1,107 @@
+
+.banner {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 80%;
+}
+
+h2 {
+  color: #2F4F4F;
+  font-size: 28px;
+  margin: 20px;
+}
+
+.h2-aboutme {
+  font-size: 24px;
+}
+
+.h3-aboutme {
+  color: black; /* FIXME: pick a darkgray color */
+}
+
+h3 {
+  color: black; /* FIXME: pick a darkgray color */
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.paragraph p {
+  margin-left: 40px;
+}
+
+.indent {
+  margin-left: 10px;
+}
+
+.house {
+  width: 30%
+}
+
+.adress {
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+.adress_items {
+  font-style: italic;
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 15%;
+}
+
+.about {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.about li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.about li:hover {
+  border-color: black; /* FIXME: pick a darkgray color */
+  border-width: 4px;
+}
+
+.about li:hover h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.about li:active {
+  border-color: #088C19;
+  border-width: 4px;
+}
+
+.about-destaque {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.about-descricao {
+  padding: 10px;
+}
+
+.music {
+  background-color: #2B2D42;
+  width: 80%;
+}
+
+.psychology {
+  width: 80%;
+}
+
+.me {
+  width:80%;
+}
