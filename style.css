@@ -226,17 +226,69 @@ form {
 
 form label, form p {
   display: block;
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 5px;
-}
+ }
 
 .input-padrao {
   display: block;
   margin-bottom: 20px;
   padding: 5px 3px 5px 2px;
   width: 50%;
+  border-radius: 5px;
+}
+
+.message-type {
+  display: block;
+  margin-bottom: 10px;
+  padding: 4px 0;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .checkbox {
   margin: 20px 0;
+  cursor: pointer;
+}
+
+.input-submit {
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 15px;
+  width: 30%;
+  background-color: #3246a8;
+  color: #ffffff;
+  transition: 1s background-color;
+  cursor: pointer;
+}
+
+.input-submit:hover {
+  background-color: #151e4a;
+}
+
+samp {
+  font-family: monospace;
+}
+
+#email-example, .phone-example {
+  margin-left: 20px;
+}
+
+.form-item {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#item-message {
+  margin-top: 10px;
+}
+
+.radio-choice {
+  cursor: pointer;
 }

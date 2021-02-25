@@ -14,7 +14,6 @@
 		<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
-
 	</head>
 
 	<body>
@@ -46,42 +45,47 @@
 
 			<p> Get In Touch</p>
 			<form>
-				<label for="nome-sobrenome">Name</label>
-				<input type="text" id="nome-sobrenome" class="input-padrao">
+				<label for="nome-sobrenome" class="form-item">Name</label>
+				<input type="text" id="nome-sobrenome" class="input-padrao" required>
 
-				<label for="e-mail">E-mail Adress</label>
-				<input type="text" id="e-mail" class="input-padrao">
+				<label for="email" class="form-item">E-mail Adress</label>
+				<p id=email-example>Example: <samp>email@example.com</samp></p>
+				<input type="email" id="email" class="input-padrao">
 
-				<label for="telefone">Phone Number</label>
-				<input type="text" id="telefone" class="input-padrao">
+				<label for="telefone" class="form-item">Phone Number</label>
+				<p class="phone-example">Make sure to include country code and area code</p>
+				<p class="phone-example">Example: <samp>+0 00 00000000</samp></p>
+				<input type="tel" id="telefone" class="input-padrao">
 
-				<div>
-					<p>Please the type of message you want to send</p>
-					<select>
+				<fieldset>
+					<legend class="form-item">Please select the type of message you want to send</legend>
+					<select class="message-type">
 						<option>Compliments</option>
 						<option>Comments</option>
 						<option>Questions</option>
 						<option>Bug Reports</option>
 						<option>Feature Request</option>
 					</select>
-				</div>
+				</fieldset>
 
-				<label for"mensagem">Message</label>
-				<textarea cols="60" rows="10" id="mensagem" class="input-padrao"></textarea>
+				<label for="mensagem" class="form-item" id="item-message">Message</label>
+				<textarea cols="60" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-				<div>
-					<p>How would you prefer to receive feedback?</p>
-					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+				<fieldset>
+					<legend class="form-item">How would you prefer to receive feedback?</legend>
+					<label for="radio-email" class="radio-choice"><input type="radio" name="contato" value="email" id="radio-email" class="radio-choice" checked>E-mail</label>
 
-					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Phone Number</label>
+					<label for="radio-telefone" class="radio-choice"><input type="radio" name="contato" value="telefone" id="radio-telefone" class="radio-choice">Phone Number</label>
 
-					<label for="radio-none"><input type="radio" name="contato" value="whatsapp" id="radio-none">I don't have a preference</label>
+					<label for="radio-none" class="radio-choice"><input type="radio" name="contato" value="no-preference" id="radio-none" class="radio-choice">I don't have a preference</label>
 
-				</div>
+					<label for="radio-no-feedback" class="radio-choice"><input type="radio" name="contato" value="no-feedback" id="radio-no-feedback" class="radio-choice">I don't want feeback</label>
 
-				<label class="checkbox"><input type="checkbox">Would you like to receive emails about upcoming posts?</label>
+				</fieldset>
 
-				<input type="submit" value="Submit">
+				<label class="checkbox"><input type="checkbox" class="checkbox">Would you like to receive emails about upcoming posts?</label>
+
+				<input type="submit" value="Submit" class="input-submit">
 
 			</form>
 
@@ -102,7 +106,6 @@
 				<p class="license">
 					The content for this page is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0.</a>
 				</p>
-
 		</footer>
 	</body>
 </html>
