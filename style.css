@@ -25,13 +25,13 @@ nav a:hover, a:active {
   font-weight: bold;
 }
 
-nav ul{
+nav ul {
   display: flex;
   justify-content: flex-end;
   margin-right: 40px;
 }
 
-nav li{
+nav li {
   display: inline;
   margin: 10px 10px 0 10px;
 }
@@ -51,19 +51,21 @@ h2 {
   color: #2F4F4F;
 }
 
-a.go-back {
-  color: #333333;
+.go-back {
   padding: 20px;
   display: flex;
   justify-content: flex-end;
   margin-right: 40px;
 }
+.go-back a {
+  color: #333333;
+}
 
-a.go-back:link, a.go-back:visited {
+.go-back a:link, a:visited {
   text-decoration: none;
 }
 
-a.go-back:hover, a.go-back:active {
+.go-back a:hover, a:active {
   color: black;
   font-weight: bold;
 }
@@ -211,4 +213,30 @@ footer a:hover, a:active {
 
 .house {
   width: 30%
+}
+
+.main-contact {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px auto 40px 80px;
+}
+
+form label, form p {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 20px;
+  padding: 5px 3px 5px 2px;
+  width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0;
 }
