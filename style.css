@@ -190,10 +190,71 @@ footer a:hover, a:active {
   padding: 10px;
 }
 
+.link-table:link, .link-table:visited {
+  text-decoration: none;
+  color: #333333;
+}
+
+.link-table:hover, .link-table:active {
+  color: black;
+  font-weight: bold;
+}
+
+.link-shecodesart:link, .link-shecodesart:visited, 
+.link-shecodesart:hover, .link-shecodesart:active {
+  text-decoration: none;
+  color: #bf0b41;
+  font-weight: bold;
+}
+
+
+.link-osmi:link, .link-osmi:visited,
+.link-osmi:hover, .link-osmi:active {
+  text-decoration: none;
+  font-weight: bold;
+  color: #38826b;
+}
+
 .about-destaque {
   font-weight: bold;
   margin-bottom: 5px;
   padding: 10px;
+}
+
+.link-stackoverflow:link, .link-stackoverflow:visited,
+.link-stackoverflow:hover, .link-stackoverflow:active {
+  text-decoration: none;
+  color: #f48024;
+}
+
+table {
+  margin-left: 100px;
+
+}
+
+caption {
+  background-color: grey;
+  color: white;
+  border: 1px solid #000000;
+
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 3px 10px;
+}
+
+.table-right {
+  text-align: center;
+  }
+
+.table-left {
+  
+}
+
+.table-source {
+  margin-left: 100px;
+  font-size: 13px;
 }
 
 /*Contact CSS*/
@@ -230,12 +291,20 @@ form label, form p {
   margin-bottom: 5px;
  }
 
+samp {
+  font-family: monospace;
+}
+
 .input-padrao {
   display: block;
   margin-bottom: 20px;
   padding: 5px 3px 5px 2px;
   width: 50%;
   border-radius: 5px;
+}
+
+#email-example, .phone-example {
+  margin-left: 20px;
 }
 
 .message-type {
@@ -245,6 +314,21 @@ form label, form p {
   font-size: 14px;
   border-radius: 5px;
   margin-top: 10px;
+  cursor: pointer;
+}
+
+#item-message {
+  margin-top: 10px;
+}
+
+.form-item {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.radio-choice input, .radio-choice label {
   cursor: pointer;
 }
 
@@ -270,25 +354,3 @@ form label, form p {
   background-color: #151e4a;
 }
 
-samp {
-  font-family: monospace;
-}
-
-#email-example, .phone-example {
-  margin-left: 20px;
-}
-
-.form-item {
-  font-weight: bold;
-  font-size: 15px;
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-#item-message {
-  margin-top: 10px;
-}
-
-.radio-choice {
-  cursor: pointer;
-}
