@@ -193,30 +193,24 @@ footer a:hover, a:active {
   font-weight: bold;
 }
 
-.link-shecodesart:link, .link-shecodesart:visited, 
-.link-shecodesart:hover, .link-shecodesart:active {
+.link-shecodesart, .link-osmi, .link-lesmis {
   text-decoration: none;
   font-weight: bold;
-  color: #bf0b41;
 }
 
+.link-shecodesart {
+   color: #bf0b41;
+}
 
-.link-osmi:link, .link-osmi:visited,
-.link-osmi:hover, .link-osmi:active {
-  text-decoration: none;
-  font-weight: bold;
+.link-osmi {
   color: #38826b;
 }
 
-.link-lesmis:link, .link-lesmis:visited,
-.link-lesmis:hover, .link-lesmis:active {
-  text-decoration: none;
-  font-weight: bold;
+.link-lesmis {
   color: #201047;
 }
 
-.link-stackoverflow:link, .link-stackoverflow:visited,
-.link-stackoverflow:hover, .link-stackoverflow:active {
+.link-stackoverflow {
   text-decoration: none;
   color: #f48024;
 }
@@ -240,7 +234,7 @@ th, td {
 
 .table-right {
   text-align: center;
-  }
+}
 
 .table-source {
   margin-left: 150px;
