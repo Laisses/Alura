@@ -112,7 +112,7 @@ footer a:hover, a:active {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .h2-index {
@@ -139,10 +139,11 @@ footer a:hover, a:active {
 .h3-about {
   color: #333333;
   font-size: 20px;
+  padding: 10px;
 }
 
 .ul-about {
-  width: 940px;
+  width: 90%;
   margin: 0 auto;
   padding: 50px 0;
 }
@@ -153,24 +154,9 @@ footer a:hover, a:active {
   width: 30%;
   vertical-align: top;
   margin: 0 1.5%;
-  padding: 30px 20px;
-  border: 2px solid #000000;
+  padding: 10px;
+  border: 2px solid #9287c4;
   border-radius: 10px;
-}
-
-.ul-about li:hover {
-  border-color: #333333;
-  border-width: 4px;
-}
-
-.ul-about li:hover h3 {
-  font-size: 26px;
-  font-weight: bold;
-}
-
-.ul-about li:active {
-  border-color: #088C19;
-  border-width: 4px;
 }
 
 .shecodes {
@@ -178,33 +164,40 @@ footer a:hover, a:active {
 }
 
 .psychology {
-  width: 80%;
+  width: 68%;
 }
 
 .music {
   background-color: #2B2D42;
-  width: 80%;
+  width: 78%;
 }
 
 .about-descricao {
   padding: 10px;
 }
 
+.about-destaque {
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
 .link-table:link, .link-table:visited {
   text-decoration: none;
-  color: #333333;
+  color: #000000;
+  font-weight: bold;
 }
 
 .link-table:hover, .link-table:active {
-  color: black;
+  color: #f48024;
   font-weight: bold;
 }
 
 .link-shecodesart:link, .link-shecodesart:visited, 
 .link-shecodesart:hover, .link-shecodesart:active {
   text-decoration: none;
-  color: #bf0b41;
   font-weight: bold;
+  color: #bf0b41;
 }
 
 
@@ -215,10 +208,11 @@ footer a:hover, a:active {
   color: #38826b;
 }
 
-.about-destaque {
+.link-lesmis:link, .link-lesmis:visited,
+.link-lesmis:hover, .link-lesmis:active {
+  text-decoration: none;
   font-weight: bold;
-  margin-bottom: 5px;
-  padding: 10px;
+  color: #201047;
 }
 
 .link-stackoverflow:link, .link-stackoverflow:visited,
@@ -228,7 +222,7 @@ footer a:hover, a:active {
 }
 
 table {
-  margin-left: 100px;
+  margin-left: 150px;
 
 }
 
@@ -248,12 +242,8 @@ th, td {
   text-align: center;
   }
 
-.table-left {
-  
-}
-
 .table-source {
-  margin-left: 100px;
+  margin-left: 150px;
   font-size: 13px;
 }
 
@@ -333,7 +323,7 @@ samp {
 }
 
 .checkbox {
-  margin: 20px 0;
+  margin: 20px 5px;
   cursor: pointer;
 }
 
