@@ -159,6 +159,10 @@ footer a:hover, a:active {
   border-radius: 10px;
 }
 
+.ul-about li p {
+  text-align: left;
+}
+
 .shecodes {
   width:80%;
 }
