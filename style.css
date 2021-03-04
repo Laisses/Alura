@@ -121,13 +121,19 @@ footer a:hover, a:active {
   margin: 10px auto;
 }
 
-.p-index {
-  margin-left: 40px;
+.letters {
+  float: left;
+  margin: 5px;
+  width: 50px;
 }
 
-.indent {
-  margin-left: 10px;
+.second-p, .third-p, .fourth-p {
+  clear: left;
 }
+
+.first-p, .second-p, .third-p, .fourth-p {
+  margin: 10px;
+} 
 
 /*About me CSS*/
 
