@@ -109,8 +109,8 @@ footer a:hover, a:active {
 
 .banner {
   display:block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
+  marginauto;
   height: auto;
   width: 70%;
 }
@@ -121,18 +121,20 @@ footer a:hover, a:active {
   margin: 10px auto;
 }
 
+.main-index div {
+  width: 55%;
+  margin-left: 22%;
+  padding: 10px;
+}
+
 .letters {
   float: left;
-  margin: 5px;
+  margin: 10px;
   width: 7%;
 }
 
-.second-p, .third-p, .fourth-p {
+.main-index div p {
   clear: left;
-}
-
-.first-p, .second-p, .third-p, .fourth-p {
-  margin: 10px;
 } 
 
 /*About me CSS*/
