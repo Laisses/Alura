@@ -264,17 +264,21 @@ th, td {
   vertical-align: top;
   font-style: italic;
   display: inline-block;
-  width: 40%;
-  margin-left: 15%;
+  width: 50%;
 }
 
-.house {
-  width: 30%
+.adress {
+  margin: 1em auto;
 }
 
 .main-contact {
-  width: 940px;
   margin: 0 auto;
+  width: 70%;
+}
+
+.map {
+  width: 40%;
+  height: auto;
 }
 
 form {
