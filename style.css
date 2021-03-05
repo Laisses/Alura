@@ -120,10 +120,14 @@ footer a:hover, a:active {
   margin: 10px auto;
 }
 
-.main-index div {
+.main-index p {
   width: 55%;
-  margin-left: 22%;
+  margin-left: 20%;
   padding: 10px;
+}
+
+.main-index p:nth-child(odd) {
+  margin-left: 35%;
 }
 
 .letters {
