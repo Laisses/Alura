@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #E6E6FA;
+  background: linear-gradient(#E6E6FA, #dedefc);
   color: #333333;
   font-size: 95%;
   font-family: 'Open Sans', sans-serif;
