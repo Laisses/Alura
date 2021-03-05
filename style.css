@@ -258,20 +258,31 @@ th, td {
 
 /*Contact CSS*/
 
+.h2-contact {
+  font-size: 2em;
+  text-align: center;
+  padding: 8px;
+}
+
 .p-contact {
-  margin-left: 20%;
-  font-size: 20px;
+  font-size: 1.2em;
+  padding: 1em;
+  text-align: center;
 }
 
-.main-contact ul {
-  vertical-align: top;
+.p-contact em {
+  font-family: 'Architects Daughter', cursive;
   font-style: italic;
-  display: inline-block;
-  width: 50%;
+  font-weight: bolder;
+  font-size: 2.5em;
 }
 
-.adress {
-  margin: 1em auto;
+.if {
+  color: #2a63bf;
+}
+
+.but {
+  color: #a31234;
 }
 
 .main-contact {
