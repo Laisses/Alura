@@ -112,6 +112,7 @@ footer a:hover, a:active {
   margin: 20px auto;
   height: auto;
   width: 70%;
+  box-shadow: 10px 10px 5px #4b7296;
 }
 
 .h2-index {
@@ -138,7 +139,7 @@ footer a:hover, a:active {
 
 .main-index div p {
   clear: left;
-} 
+}
 
 /*About me CSS*/
 
@@ -168,6 +169,7 @@ footer a:hover, a:active {
   padding: 10px;
   border: 1px solid #9287c4;
   border-radius: 10px;
+  box-shadow: inset 0 0 10px #beb4ed; 
 }
 
 .ul-about li p {
@@ -232,14 +234,12 @@ footer a:hover, a:active {
 
 table {
   margin-left: 150px;
-
 }
 
 caption {
   background-color: grey;
   color: white;
   border: 1px solid #000000;
-
 }
 
 th, td {
@@ -309,7 +309,7 @@ th, td {
   height: 15em;
 }
 
-.adress {
+.address {
   margin: 1em auto;
   width: 70%;
   padding-top: 2em;
