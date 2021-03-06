@@ -392,3 +392,31 @@ samp {
   background-color: #151e4a;
 }
 
+/*@media*/
+
+@media screen and (max-width: 480px) {
+  nav {
+    width: auto;
+    font-size: 1.8em;
+  }
+  .nav-extra {
+    display: none;
+  }
+  .banner {
+    height: 188px;
+    box-shadow: none;
+    width: auto;
+  }
+  .letters {
+    width: 20%;
+  }
+  .main-index p {
+    width: 90%;
+    margin: 5%;
+    padding: 0;
+  }
+  .main-index p:nth-child(odd) {
+    margin-left: 5%;
+  }
+}
+
