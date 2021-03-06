@@ -395,28 +395,152 @@ samp {
 /*@media*/
 
 @media screen and (max-width: 480px) {
+  /*Base CSS*/
+
+  h1{
+    font-size: 3em;
+    margin: 20px;
+    line-height: 1;
+  }
+
   nav {
     width: auto;
     font-size: 1.8em;
   }
+
+  nav ul {
+    justify-content: center;
+    margin: 0;
+  }
+
   .nav-extra {
     display: none;
   }
+
+  .go-back {
+    justify-content: center;
+    padding: 0;
+    margin: 40px auto auto;
+  }
+
+  .go-back a {
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+
+  .credits-title {
+    margin-bottom: 10px;
+  }
+
+  footer a {
+    padding: 0;
+  }
+
+  .license {
+    margin-top: 20px;
+  }
+
+  /*index*/
+
   .banner {
     height: 188px;
     box-shadow: none;
     width: auto;
   }
+
   .letters {
     width: 20%;
   }
+
   .main-index p {
     width: 90%;
     margin: 5%;
     padding: 0;
   }
+
   .main-index p:nth-child(odd) {
     margin-left: 5%;
   }
+  
+  /*about*/
+
+  .h2-about {
+    margin: 0 5px;
+  }
+
+  .h3-about {
+    font-size: 1.6em;
+  }
+
+  .ul-about {
+    padding: 15px 0;
+  }
+
+  .ul-about li {
+    width: 100%;
+    margin: auto auto 10px;
+  }
+
+  table {
+    margin:auto;
+  }
+
+  .table-source {
+    margin-left: 10%;
+  }
+
+  /*contact*/
+
+  .main-contact {
+    width: 100%;
+  }
+
+  .h2-contact {
+    padding: 0 2px;
+  }
+
+  .p-contact {
+    text-align: left;
+  }
+
+  .p-contact em {
+    font-size: 1.2em;
+  }
+
+  .address {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  /*.address {
+    margin: 5px;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+   .main-contact ul {
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .map {
+    width: 100%;
+  }*/
+
+
+
+
+
+
+
+
+
 }
 
