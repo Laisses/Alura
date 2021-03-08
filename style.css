@@ -342,6 +342,14 @@ samp {
   border-radius: 5px;
 }
 
+.input-padrao:focus {
+  outline-width: 2px;
+  outline-color: #bd1e56;
+  outline-offset: 4px;
+  
+ 
+}
+
 #email-example, .phone-example {
   margin-left: 20px;
 }
